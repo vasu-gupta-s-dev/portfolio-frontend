@@ -1,5 +1,5 @@
 import { Navigate, Outlet, NavLink } from 'react-router-dom';
-import { useAuth } from '../../contexts/AuthContext';
+import { useAuth } from '../contexts/AuthContext';
 import './AdminLayout.css';
 
 const AdminLayout = () => {
