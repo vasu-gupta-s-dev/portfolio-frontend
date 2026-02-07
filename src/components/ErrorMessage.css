@@ -1,0 +1,25 @@
+.error-container {
+    text-align: center;
+    padding: var(--space-12);
+    background: var(--color-bg-card);
+    border: 1px solid rgba(239, 68, 68, 0.3);
+    border-radius: var(--radius-xl);
+    max-width: 400px;
+    margin: var(--space-8) auto;
+}
+
+.error-icon {
+    font-size: var(--text-4xl);
+    margin-bottom: var(--space-4);
+}
+
+.error-title {
+    font-size: var(--text-xl);
+    color: var(--color-text-primary);
+    margin-bottom: var(--space-2);
+}
+
+.error-message {
+    color: var(--color-error);
+    margin-bottom: var(--space-4);
+}

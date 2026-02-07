@@ -1,0 +1,112 @@
+/* ==========================================================================
+   Projects Page Styles
+   ========================================================================== */
+
+.projects-hero {
+    text-align: center;
+    padding-bottom: var(--space-8);
+}
+
+.projects-content {
+    padding-top: 0;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-6);
+}
+
+.projects-notice {
+    background: rgba(245, 158, 11, 0.1);
+    border: 1px solid rgba(245, 158, 11, 0.3);
+    border-radius: var(--radius-lg);
+    padding: var(--space-3) var(--space-4);
+    margin-bottom: var(--space-6);
+    text-align: center;
+}
+
+.projects-notice p {
+    font-size: var(--text-sm);
+    color: #f59e0b;
+    margin-bottom: 0;
+}
+
+.projects-empty {
+    text-align: center;
+    padding: var(--space-12);
+    color: var(--color-text-muted);
+}
+
+/* Philosophy Section */
+.projects-philosophy {
+    margin-top: var(--space-8);
+}
+
+.philosophy-card {
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-2xl);
+    padding: var(--space-10);
+}
+
+.philosophy-card h2 {
+    font-size: var(--text-2xl);
+    margin-bottom: var(--space-4);
+    text-align: center;
+}
+
+.philosophy-card>p {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto var(--space-8);
+    color: var(--color-text-muted);
+    line-height: 1.8;
+}
+
+.philosophy-points {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-6);
+}
+
+.philosophy-point {
+    text-align: center;
+    padding: var(--space-4);
+}
+
+.philosophy-icon {
+    font-size: var(--text-3xl);
+    display: block;
+    margin-bottom: var(--space-3);
+}
+
+.philosophy-point h3 {
+    font-size: var(--text-lg);
+    margin-bottom: var(--space-2);
+    color: var(--color-text-primary);
+}
+
+.philosophy-point p {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    margin-bottom: 0;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .philosophy-points {
+        grid-template-columns: 1fr;
+        gap: var(--space-4);
+    }
+
+    .philosophy-card {
+        padding: var(--space-6);
+    }
+}
