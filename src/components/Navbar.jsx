@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { NAV_LINKS, OWNER } from '../utils/constants';
+import ThemeToggle from './ThemeToggle';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -59,6 +60,10 @@ const Navbar = () => {
                         </li>
                     ))}
                 </ul>
+
+                <div className="navbar__actions">
+                    <ThemeToggle />
+                </div>
             </div>
         </nav>
     );
