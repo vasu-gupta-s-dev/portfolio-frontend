@@ -17,6 +17,22 @@
     background: rgba(10, 10, 15, 0.95);
 }
 
+/* Light theme navbar backgrounds */
+[data-theme="light"] .navbar {
+    background: rgba(248, 250, 252, 0.8);
+}
+
+[data-theme="light"] .navbar--scrolled {
+    background: rgba(248, 250, 252, 0.95);
+}
+
+/* Navbar Actions */
+.navbar__actions {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+}
+
 .navbar__container {
     display: flex;
     align-items: center;
