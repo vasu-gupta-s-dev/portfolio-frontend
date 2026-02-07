@@ -21,9 +21,9 @@ export const SKILLS = [
 
 // Social links
 export const SOCIAL_LINKS = {
-    github: 'https://github.com/vasu-gupta-s-dev',
-    linkedin: 'https://linkedin.com/in/vasugupta',
-    email: 'mailto:vasugupta@example.com',
+    github: 'https://github.com/vasug369',
+    linkedin: 'https://www.linkedin.com/in/vasu-gupta-bb44b222b/',
+    email: 'mailto:vasupankajdbd@gmail.com',
 };
 
 // Navigation links
